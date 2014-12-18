@@ -18,9 +18,12 @@ GEM
     i18n (0.6.11)
     json (1.8.1)
     mem (0.1.5)
+    mini_portile (0.6.1)
     minitest (5.5.0)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
+    nokogiri (1.6.5)
+      mini_portile (~> 0.6.0)
     ruboty (1.1.2)
       activesupport
       bundler
@@ -34,6 +37,9 @@ GEM
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
+      ruboty
+    ruboty-hatena_hotentry (0.0.2)
+      nokogiri
       ruboty
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
@@ -62,5 +68,6 @@ DEPENDENCIES
   ruboty
   ruboty-cron
   ruboty-google_image
+  ruboty-hatena_hotentry
   ruboty-slack
   ruboty-syoboi_calendar
