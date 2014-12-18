@@ -1,1 +1,1 @@
-bot: bundle exec ruboty
+bot: RUBOTY_ENV=production bundle exec ruboty
