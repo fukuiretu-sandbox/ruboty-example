@@ -41,6 +41,8 @@ GEM
     ruboty-hatena_hotentry (0.0.2)
       nokogiri
       ruboty
+    ruboty-message_suffix (0.0.1)
+      ruboty
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
       xrc (>= 0.0.6)
@@ -69,5 +71,6 @@ DEPENDENCIES
   ruboty-cron
   ruboty-google_image
   ruboty-hatena_hotentry
+  ruboty-message_suffix
   ruboty-slack
   ruboty-syoboi_calendar

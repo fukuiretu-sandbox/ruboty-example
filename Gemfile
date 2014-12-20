@@ -6,6 +6,7 @@ gem "ruboty-google_image"
 gem "ruboty-syoboi_calendar"
 gem "ruboty-cron"
 gem "ruboty-hatena_hotentry"
+gem "ruboty-message_suffix"
 
 group :production do
   gem "ruboty-slack"
