@@ -9,6 +9,13 @@ GEM
       tzinfo (~> 1.1)
     chrono (0.0.4)
       activesupport
+    docomoru (0.1.0)
+      activesupport
+      faraday
+      faraday_middleware
+      json
+      rack
+      slop
     dotenv (1.0.2)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
@@ -24,6 +31,7 @@ GEM
     multipart-post (2.0.0)
     nokogiri (1.6.5)
       mini_portile (~> 0.6.0)
+    rack (1.6.0)
     ruboty (1.1.2)
       activesupport
       bundler
@@ -43,8 +51,6 @@ GEM
     ruboty-hatena_hotentry (0.0.2)
       nokogiri
       ruboty
-    ruboty-message_suffix (0.0.2)
-      ruboty
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
       xrc (>= 0.0.6)
@@ -52,6 +58,9 @@ GEM
       activesupport
       ruboty
       syoboi_calendar (= 0.3.1)
+    ruboty-talk (0.0.4)
+      docomoru (>= 0.0.3)
+      ruboty (>= 1.1.0)
     slop (3.6.0)
     syoboi_calendar (0.3.1)
       activesupport
@@ -74,6 +83,6 @@ DEPENDENCIES
   ruboty-echo
   ruboty-google_image
   ruboty-hatena_hotentry
-  ruboty-message_suffix
   ruboty-slack
   ruboty-syoboi_calendar
+  ruboty-talk
