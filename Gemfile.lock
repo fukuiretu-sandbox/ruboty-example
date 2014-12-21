@@ -51,7 +51,7 @@ GEM
     ruboty-hatena_hotentry (0.0.2)
       nokogiri
       ruboty
-    ruboty-message_suffix (0.0.2)
+    ruboty-message_suffix (0.0.3)
       ruboty
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
